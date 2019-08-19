@@ -9,9 +9,9 @@ server.use('./api/projects', projectsRouter);
 
 // //REQUEST HANDLER//
 
-server.get('/', (req, res) => {
-    console.log(req.body);
-    res.send(`<h2>Lambda API Sprint Challenge</h2>`);
-});
+// server.get('/', (req, res) => {
+//     console.log(req.body);
+//     res.send(`<h2>Lambda API Sprint Challenge</h2>`);
+// });
 
 module.exports = server;
